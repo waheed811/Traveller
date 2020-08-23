@@ -1,0 +1,27 @@
+.bg-img {
+    /* The image used */
+    background-image: url("../images/bgimage.jpg");
+    height: 500px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+  }
+  
+ul li:hover{
+    background-color: green;
+}
+li:hover{
+    background-color: green;
+}
